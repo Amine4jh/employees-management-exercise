@@ -67,6 +67,28 @@ javac *.java
 java Main
 ```
 
+## Output
+
+Expected output after running the program:
+
+```
+========== Permanent Employee ==========
+Name: John Doe | Salary: $4500.0
+Salary Net (15% VAT): $3825.0
+
+========== Freelance Employee ==========
+Name: Bob Johnson | Salary: $3000.0
+Salary Net (20% VAT): $2400.0
+I'm working online!
+
+========== Polymorphism ==========
+Name: John Doe | Salary: $4500.0
+Salary Net: 3825.0
+Name: Bob Johnson | Salary: $3000.0
+Salary Net: 2400.0
+I'm working online!
+```
+
 ## What I Learned
 
 - An abstract class cannot be instantiated directly; it serves as a common base for its subclasses.
