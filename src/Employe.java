@@ -11,5 +11,5 @@ public abstract class Employe {
         System.out.println("Name: " + this.name + " | Salary: $" + this.salary);
     }
 
-    abstract void calculateSalary();
+    abstract double calculateSalary();
 }
